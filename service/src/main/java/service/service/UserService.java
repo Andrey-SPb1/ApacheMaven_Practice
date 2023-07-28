@@ -1,7 +1,7 @@
-package service;
+package service.service;
 
-import dao.UserDao;
-import dto.UserDto;
+import database.dao.UserDao;
+import service.dto.UserDto;
 
 import java.util.Optional;
 
