@@ -14,7 +14,6 @@
     <connection>scm:git:git@github.com:Andrey-SPb1/ApacheMaven_Practice.git</connection>
     <developerConnection>scm:git:git@github.com:Andrey-SPb1/ApacheMaven_Practice.git</developerConnection>
     <url>https://github.com/Andrey-SPb1/ApacheMaven_Practice</url>
-    <tag>First-maven-1.0.0</tag>
   </scm>
 
   <modules>
