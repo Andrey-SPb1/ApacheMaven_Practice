@@ -13,4 +13,25 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>maven</groupId>
+                <artifactId>hello-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>hello</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
+<!--                <configuration>-->
+<!--                    <message>Message from config!</message>-->
+<!--                </configuration>-->
+            </plugin>
+        </plugins>
+    </build>
 </project>
